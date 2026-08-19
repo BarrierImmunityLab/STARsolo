@@ -34,7 +34,7 @@ run_dropseq() {
         --soloType CB_UMI_Simple --soloCBwhitelist None \
         --soloCBstart 1 --soloCBlen 12 --soloUMIstart 13 --soloUMIlen 8 \
         --soloBarcodeReadLength 0 \
-        --soloFeatures Gene GeneFull \
+        --soloFeatures Gene GeneFull Velocyto \
         --soloOutFileNames output/ features.tsv barcodes.tsv matrix.mtx \
         --outReadsUnmapped Fastx \
         "${STAR_EXTRA_ARGS[@]}"
