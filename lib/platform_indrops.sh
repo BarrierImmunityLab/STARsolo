@@ -45,7 +45,7 @@ run_indrops() {
         --soloCBmatchWLtype 1MM \
         --soloCBposition 0_0_2_-1 3_1_3_8 \
         --soloUMIposition 3_9_3_14 \
-        --soloFeatures Gene GeneFull \
+        --soloFeatures Gene GeneFull Velocyto \
         --soloOutFileNames output/ features.tsv barcodes.tsv matrix.mtx \
         --outReadsUnmapped Fastx \
         "${STAR_EXTRA_ARGS[@]}"
